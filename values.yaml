@@ -1,1 +1,2 @@
-{}
+carts:
+  enabled: false
