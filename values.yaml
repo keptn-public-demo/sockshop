@@ -1,4 +1,6 @@
 carts:
   enabled: false
+carts-db:
+  enabled: false
 carts-generated:
   enabled: false
