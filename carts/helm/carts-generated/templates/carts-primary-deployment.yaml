@@ -54,7 +54,7 @@ spec:
         - name: KEPTN_SERVICE
           value: carts
         - name: UNLEASH_SERVER_URL
-          value: http://unleash.unleash-dev/api
+          value: http://unleash.unleash-production/api
         image: docker.io/keptnexamples/carts:0.10.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
