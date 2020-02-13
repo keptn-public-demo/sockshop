@@ -47,7 +47,7 @@ spec:
         - name: KEPTN_SERVICE
           value: "carts"
         - name: UNLEASH_SERVER_URL
-          value: "http://unleash.unleash-dev/api"
+          value: "http://unleash.unleash-production/api"
         livenessProbe:
           httpGet:
             path: /health
