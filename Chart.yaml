@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for project sockshop-umbrella
+name: sockshop-umbrella
+version: 0.1.0
