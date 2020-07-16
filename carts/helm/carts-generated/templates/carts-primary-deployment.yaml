@@ -31,7 +31,7 @@ spec:
             fieldRef:
               fieldPath: metadata.labels['deployment']
         - name: CONTAINER_IMAGE
-          value: keptnexamples/carts:0.11.1
+          value: keptnexamples/carts:0.11.3
         - name: KEPTN_PROJECT
           value: carts
         - name: KEPTN_STAGE
@@ -42,7 +42,7 @@ spec:
           value: carts
         - name: UNLEASH_SERVER_URL
           value: http://unleash.unleash-dev/api
-        image: keptnexamples/carts:0.11.1
+        image: keptnexamples/carts:0.11.3
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
