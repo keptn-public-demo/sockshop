@@ -40,8 +40,6 @@ spec:
               fieldPath: metadata.namespace
         - name: KEPTN_SERVICE
           value: carts
-        - name: UNLEASH_SERVER_URL
-          value: http://unleash.unleash-dev/api
         image: keptnexamples/carts:0.11.3
         imagePullPolicy: IfNotPresent
         livenessProbe:
