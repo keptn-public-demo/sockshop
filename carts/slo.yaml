@@ -19,9 +19,12 @@ objectives:
           - "<=+10%"
   - sli: throughput
   - sli: response_time_p50
+    pass:
+      - criteria:
+         - "<=+25%"
     warning:
       - criteria:
-          - "<=+25%"
+          - "<=+50%"
 total_score:
   pass: "90%"
   warning: "65%"
