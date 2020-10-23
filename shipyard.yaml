@@ -8,3 +8,5 @@ stages:
   - name: "production"
     deployment_strategy: "blue_green_service"
     remediation_strategy: "automated"
+    test_strategy: "manual"
+    
