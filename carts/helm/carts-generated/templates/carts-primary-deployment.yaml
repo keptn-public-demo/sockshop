@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   name: carts-primary
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: carts-primary
