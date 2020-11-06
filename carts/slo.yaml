@@ -21,10 +21,10 @@ objectives:
   - sli: response_time_p50
     pass:
       - criteria:
-         - "<=+25%"
+         - "<=+50%"
     warning:
       - criteria:
-          - "<=+50%"
+          - "<=250"
 total_score:
   pass: "90%"
   warning: "65%"
