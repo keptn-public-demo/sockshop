@@ -63,6 +63,10 @@ spec:
             - name: "deployment"
               properties:
                 deploymentstrategy: "blue_green_service"
+            - name: test
+              properties:
+                teststrategy: ""
+            - name: evaluation
             - name: "release"
         - name: "rollback"
           triggeredOn:
