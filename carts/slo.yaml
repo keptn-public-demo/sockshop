@@ -15,7 +15,12 @@ objectives:
     warning:          # if the response time is below 1200ms, the result should be a warning
       - criteria:
           - "<=1000"
-    weight: 1
+  - sli: "response_time_p50"
+  - sli: "throughput"
+  - sli: "error_rate"
+    pass:
+      - criteria:
+          - "<=+10%"
 total_score:
   pass: "90%"
   warning: "40%"
