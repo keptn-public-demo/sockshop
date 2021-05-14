@@ -8,7 +8,7 @@ spec:
   - public-gateway.istio-system
   - mesh
   hosts:
-  - carts.sockshop-staging.public.demo.keptn.sh
+  - carts.sockshop-staging.svc.cluster.local
   - carts
   http:
   - route:
