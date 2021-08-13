@@ -31,7 +31,7 @@ spec:
             fieldRef:
               fieldPath: metadata.labels['deployment']
         - name: CONTAINER_IMAGE
-          value: docker.io/keptnexamples/carts:0.12.3
+          value: docker.io/keptnexamples/carts:0.12.1
         - name: KEPTN_PROJECT
           value: carts
         - name: KEPTN_STAGE
@@ -40,7 +40,7 @@ spec:
               fieldPath: metadata.namespace
         - name: KEPTN_SERVICE
           value: carts
-        image: docker.io/keptnexamples/carts:0.12.3
+        image: docker.io/keptnexamples/carts:0.12.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
