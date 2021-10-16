@@ -32,7 +32,7 @@ spec:
             fieldRef:
               fieldPath: metadata.labels['deployment']
         - name: CONTAINER_IMAGE
-          value: docker.io/keptnexamples/carts:0.12.1
+          value: docker.io/keptnexamples/carts:0.12.3
         - name: KEPTN_PROJECT
           value: carts
         - name: KEPTN_STAGE
@@ -43,7 +43,7 @@ spec:
           value: carts
         - name: UNLEASH_SERVER_URL
           value: http://unleash.unleash-production/api
-        image: docker.io/keptnexamples/carts:0.12.1
+        image: docker.io/keptnexamples/carts:0.12.3
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
